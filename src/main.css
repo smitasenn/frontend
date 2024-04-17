@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-chatbot-kit-chat-container{
+    width:350px !important;
+}
+.react-chatbot-kit-chat-inner-container{
+    height:630px !important;
+
+}
+
+.react-chatbot-kit-chat-bot-message-container .react-chatbot-kit-chat-bot-message{
+    margin-left: 0px !important;
+    color: black !important;
+
+}
+
+.react-chatbot-kit-chat-bot-message{
+    font-size: 0,8rem !important;
+    width: 200px !important;
+}
+
+.react-chatbot-kit-user-chat-message-container .react-chatbot-kit-user-chat-message{
+    background-color: #376B7E !important;
+    color: white !important;
+}
+
+.react-chatbot-kit-chat-bot-message-container {
+    align-items: center !important;
+    gap: 10px !important;
+}
